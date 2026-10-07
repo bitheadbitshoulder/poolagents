@@ -1,0 +1,28 @@
+{
+  "_comment": "GMGN Pre-Entry Rug Check v6. One hard RED = SKIP. Percentages are 0-100. Edit these to tune; the code reads them at runtime.",
+  "version": "v6",
+  "token_tax":            { "red_above": 5.0, "caution_from": 1.0 },
+  "top10_pct":            { "red_above": 30.0 },
+  "dev_pct":              { "red_above": 5.0 },
+  "insiders_pct":         { "red_above": 10.0 },
+  "phishing_pct":         { "red_above": 30.0 },
+  "snipers_pct":          { "red_above": 10.0, "caution_from": 1.0 },
+  "bundler_pct":          { "red_above": 50.0, "caution_from": 10.0 },
+  "lp_burnt_pct":         { "red_below": 90.0 },
+  "pool_quote_drop_pct":  { "red_above": 50.0, "young_pool_minutes": 15 },
+  "liquidity_health": {
+    "_comment": "The sheet says 'very thin liq or no volume' = RED, 'low liq vs volume' = CAUTION. These numbers are PoolAgents defaults - tune them.",
+    "red_liquidity_below_usd": 10000,
+    "caution_volume_to_liquidity_above": 50
+  },
+  "volume_24h_usd":       { "red_below": 100000, "young_pool_hours": 24 },
+  "market_cap_usd":       { "red_below": 100000 },
+  "sellable_vs_liquidity":{ "red_above": 2.0, "caution_from": 1.0 },
+  "verdict": {
+    "_comment": "ENTER needs no RED and no N/A. WATCH if any N/A or at least this many CAUTIONs.",
+    "watch_if_cautions_at_least": 2
+  },
+  "extra_flags": {
+    "gmgn_rug_pct_high": 50
+  }
+}

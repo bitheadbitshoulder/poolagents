@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poolagents"
+version = "0.1.0"
+description = "Read-only pre-entry screening for Meteora DLMM pools on Solana: 15-check rug sheet + 1-minute scalp playbook."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Bruce Muirhead" }]
+keywords = ["solana", "meteora", "dlmm", "liquidity", "rug-check", "defi", "memecoin"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Office/Business :: Financial :: Investment",
+]
+dependencies = []
+
+[project.scripts]
+poolagents = "poolagents.cli:main"
+
+[tool.setuptools]
+packages = ["poolagents"]
+
+[tool.setuptools.package-data]
+poolagents = ["config/*.json"]

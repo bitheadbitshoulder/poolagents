@@ -1,0 +1,28 @@
+{
+  "_comment": "DLMM Scalp Playbook. Completely separate from the rug-check sheet - none of the rug thresholds apply here.",
+  "setup": {
+    "bin_step": 100,
+    "base_fee_pct": 2.0,
+    "shape": "Spot, two-sided",
+    "bins": 69,
+    "fees": "quote-only if available",
+    "size": "only what you are willing to lose"
+  },
+  "entry": {
+    "volume_rising_candles_min": 2,
+    "bundler_max_rise_pts": 0.5,
+    "bundler_max_fall_pts": 2.0
+  },
+  "exit_triggers": {
+    "_comment": "Exit on ONE trigger, immediately, no second confirmation. Compared to the PRIOR 1m reading.",
+    "bundler_drop_pts": 2.0,
+    "net_buy_at_or_below_usd": -5000,
+    "holders_drop_pct": 10.0,
+    "volume_drop_pct": 20.0,
+    "time_stop_minutes": 15
+  },
+  "session": {
+    "stop_after_gain_pct_min": 15,
+    "stop_after_gain_pct_max": 30
+  }
+}

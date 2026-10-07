@@ -1,0 +1,9 @@
+{
+  "token_name": "Example Scalp Candidate",
+  "minutes_in_trade": 6,
+  "price_in_range": true,
+  "candles": [
+    {"volume_usd": 73000, "net_buy_usd": 6900, "holders": 934, "bundler_pct": 17.6},
+    {"volume_usd": 52000, "net_buy_usd": -6400, "holders": 921, "bundler_pct": 15.2}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "token_name": "Example Scalp Candidate",
+  "contract": "EXAMPLEsca1p1111111111111111111111111pump",
+  "candles": [
+    {"volume_usd": 41000, "net_buy_usd": 2200, "holders": 812, "bundler_pct": 18.4},
+    {"volume_usd": 56000, "net_buy_usd": 4100, "holders": 861, "bundler_pct": 18.1},
+    {"volume_usd": 73000, "net_buy_usd": 6900, "holders": 934, "bundler_pct": 17.6}
+  ],
+  "confirmations": {"ca_verified": true, "authorities_ok": true, "lp_depth_ok": true}
+}

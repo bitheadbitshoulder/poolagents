@@ -1,0 +1,22 @@
+{
+  "token_name": "Example Fresh Launch",
+  "contract": "EXAMPLEfresh11111111111111111111111111pump",
+  "market_cap_usd": 380000,
+  "liquidity_usd": 52000,
+  "volume_24h_usd": 61000,
+  "pool_age_minutes": 9,
+  "tax_pct": 0,
+  "top10_pct": 21,
+  "dev_pct": 1.2,
+  "insiders_pct": 4,
+  "phishing_pct": 12,
+  "snipers_pct": 3.5,
+  "bundler_pct": 14,
+  "lp_burnt_pct": 100,
+  "mint_enabled": false,
+  "freeze_enabled": false,
+  "pool_quote_initial_sol": 85,
+  "pool_quote_now_sol": 71,
+  "gmgn_rug_pct": 70,
+  "meteora_sol_pools": [{"address": "EXAMPLEpoo2", "liquidity_usd": 18000}]
+}
